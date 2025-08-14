@@ -148,17 +148,13 @@
       }
 
       .tech-card {
-        background: var(--bg-color);
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        border: 1px solid var(--border-color);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 2rem 0;
+        border-top: 2px solid var(--border-color);
+        transition: border-color 0.3s ease;
       }
 
       .tech-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        border-top-color: var(--accent-color);
       }
 
       .tech-card h3 {
