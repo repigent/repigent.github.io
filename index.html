@@ -152,27 +152,9 @@
                 );
             }
 
-            .tech-grid {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 2rem;
-                margin-top: 3rem;
-                width: 100%;
-                max-width: 1000px;
-            }
-
-            .tech-card {
-                padding: 2rem 0;
-                border-top: 2px solid var(--border-color);
-                transition: border-color 0.3s ease;
-            }
-
-            .tech-card:hover {
-                border-top-color: var(--accent-color);
-            }
-
-            .tech-card h3 {
+            .tech .section-content h3 {
                 color: var(--accent-color);
+                margin-top: 2rem;
                 margin-bottom: 1rem;
                 font-size: 1.5rem;
             }
@@ -285,11 +267,6 @@
                     font-size: 1rem;
                 }
 
-                .tech-grid {
-                    grid-template-columns: 1fr;
-                    gap: 1.5rem;
-                }
-
                 .contact-info {
                     grid-template-columns: 1fr;
                 }
@@ -342,36 +319,28 @@
                     holde oss til teknologi som vi vet fungerer – uten
                     unødvendig teknisk gjeld som bremser utviklingen.
                 </p>
-            </div>
-            <div class="tech-grid">
-                <div class="tech-card">
-                    <h3>React</h3>
-                    <p>
-                        Responsive applikasjoner bygget med React. Vi skriver
-                        all kode i TypeScript, både frontend og backend. Målet
-                        er å få system som er lette å vedlikeholde.
-                    </p>
-                </div>
 
-                <div class="tech-card">
-                    <h3>Convex</h3>
-                    <p>
-                        <a href="https://convex.dev" target="_blank">Convex</a>
-                        som applikasjonsserver gir oss skalerbare løsninger med
-                        innebygd sikkherhet og sanntidssynkronisering. All data
-                        lagres i PostgreSQL.
-                    </p>
-                </div>
+                <h3>React</h3>
+                <p>
+                    Responsive applikasjoner bygget med React. Vi skriver all
+                    kode i TypeScript, både frontend og backend. Målet er å få
+                    system som er lette å vedlikeholde.
+                </p>
 
-                <div class="tech-card">
-                    <h3>Sky eller lokalt</h3>
-                    <p>
-                        Full fleksibilitet for hosting – velg mellom
-                        skyløsninger i EU eller USA, eller kjør alt på din egen
-                        infrastruktur. Du bestemmer hvor dataene dine skal
-                        prosesseres og lagres.
-                    </p>
-                </div>
+                <h3>Convex</h3>
+                <p>
+                    <a href="https://convex.dev" target="_blank">Convex</a> som
+                    applikasjonsserver gir oss skalerbare løsninger med innebygd
+                    sikkherhet og sanntidssynkronisering. All data lagres i
+                    PostgreSQL.
+                </p>
+
+                <h3>Sky eller lokalt</h3>
+                <p>
+                    Full fleksibilitet for hosting – velg mellom skyløsninger i
+                    EU eller USA, eller kjør alt på din egen infrastruktur. Du
+                    bestemmer hvor dataene dine skal prosesseres og lagres.
+                </p>
             </div>
         </section>
 
